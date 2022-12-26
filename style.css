@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
+
+#img-bg {
+  display: flex;
+  justify-content: right;
+}
+
+#img-bg img {
+  height: 100vh;
+  width: 70%;
+}
+
+#bg {
+  background: var(--body-bg-color);
+  position: absolute;
+  top: 0;
+  left: 0; 
+  height: 100%;
+  width: 50%;
+
+}
+
+img#logo {
+  width: 389px;
+  height: 94px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#texto {
+  margin-top: 60px;
+  margin-left: 36px;
+}
+
+#texto h1{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--title-color);
+}
+
+#texto h2 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+#texto p {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+form {
+  margin-top: 50px;
+  margin-left: 36px;
+}
+
+form p {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--form-color);
+
+  margin-bottom: 17px;
+}
+
+form input {
+  width: 700px;
+  height: 48px;
+  padding: 15px;
+  border: 0;
+  border-left: 5px solid var(--title-color);
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  position: relative;
+}
+
+form input::placeholder {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+}
+
+form button {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 94%;
+  z-index: 1;
+  border: 0;
+  margin: 0;
+  background: var(--bg-button-color);
+}
+
+form button ion-icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+#link {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 36px;
+  height: 24px;
+  width: 169px;
+  color: #8257E5;
+}
+
+#link a {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #8257E5;
+  text-decoration: none;
+  position: relative;
+  margin: 5px;
+}
+
+#link ion-icon {
+  position: absolute;
+  bottom: 1px;
+  width: 24px;
+  height: 24px;
+  
+}
